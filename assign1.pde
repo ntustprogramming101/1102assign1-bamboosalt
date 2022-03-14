@@ -61,6 +61,9 @@ void draw() {
   if(x>=640){x=-80;}
   x%=640;
   
+   //robot
+  image(robotImg,robotX,160+80*d);
+  
   //light
   
   strokeWeight(10);
@@ -78,7 +81,6 @@ void draw() {
   lightA_X-=2;
 }
 
-  //robot
-  image(robotImg,robotX,160+80*d);
+ 
  
 }
